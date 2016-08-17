@@ -9,8 +9,8 @@ a {
 }
 
 body {
-  font-family: "Merriweather", serif;
-  font-size: 16px;
+  font-family: Verdana,Helvetica,Arial,sans-serif;
+  font-size: 18px;
   line-height: 1.5;
 }
 .hero img {
@@ -22,15 +22,15 @@ body {
   text-align: center;
   position: relative;
   height: auto;
-  padding-bottom: 80px;
-  background: #4f2f60 url("") center top no-repeat;
+  padding-bottom: 180px;
+  background: #4f2f60 url("https://trp-marketing-materials.s3.amazonaws.com/trp_mobile_agent_page/trp_agent_landing_hero.jpg") center top no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
 }
 .hero h1 {
-  margin: 50px 0 20px;
-  font-family: "Montserrat", sans-serif;
+  margin: 60px 0 -35px;
+  font-family: Verdana,Helvetica,Arial,sans-serif;
   font-size: 35px;
 }
 .hero h1 span {
@@ -38,11 +38,26 @@ body {
   display: block;
 }
 .hero h2 {
+  font-family: Verdana,Helvetica,Arial,sans-serif;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1em;
+  font-size: 1.3em;
   font-weight: 400;
   padding: 20px;
+  padding-bottom: 50px;
+}
+span.phone-box {
+  float: right;
+  font-size: 20px;
+  padding-top: 1%;
+  font-weight: bold;
+  color: #3b3b58;
+}
+span.phone-box a {
+  color: #3b3b58;
+}
+section.top-menu {
+  padding: 5px;
 }
 @media only screen and (min-width: 37.5em) {
   .hero h1 {
@@ -53,7 +68,7 @@ body {
   }
   .hero h2 {
     width: 76%;
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -64,13 +79,15 @@ body {
 }
 
 .section {
-  padding: 60px 0;
+  padding: 30px 0;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 .section__title {
   font-size: 24px;
   color: #3b3b58;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: Verdana,Helvetica,Arial,sans-serif;
   margin: 14px 0;
 }
 .section__intro {
@@ -86,7 +103,7 @@ body {
 }
 .section--cta {
   color: #454545;
-  background: #f1f1f1;
+  background: #F2F5FA;
 }
 
 .box {
@@ -99,7 +116,6 @@ body {
       -ms-flex: 1 0 100%;
           flex: 1 0 100%;
   margin-bottom: 20px;
-  background: #f9f9f9;
 }
 .box__grid {
   display: -webkit-box;
@@ -115,7 +131,7 @@ body {
           justify-content: space-between;
 }
 .box__title {
-  font-family: "Montserrat", sans-serif;
+  font-family: Verdana,Helvetica,Arial,sans-serif;
 }
 .box__more {
   color: #da2328;
@@ -139,15 +155,15 @@ body {
 @media only screen and (min-width: 43.75em) {
   .box {
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 30%;
-        -ms-flex: 0 0 30%;
-            flex: 0 0 30%;
+    -webkit-flex: 0 0 49%;
+        -ms-flex: 0 0 49%;
+            flex: 0 0 49%;
   }
 }
 
 .btn, .btn-1 {
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: Verdana,Helvetica,Arial,sans-serif;
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -173,6 +189,8 @@ body {
 }
 .footer p {
   opacity: .65;
+  font-weight: normal;
+  font-size: 15px;
 }
 .footer p.footer-text a {
   color: #fff;
