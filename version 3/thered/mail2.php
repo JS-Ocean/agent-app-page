@@ -2,9 +2,9 @@
 
 if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['message'])&&$_POST['message']!="")){ //Проверка отправилось ли наше поля name и не пустые ли они
 
-        $to = 'volodymyr.pekh@gmail.com'; //Почта получателя, через запятую можно указать сколько угодно адресов
+        $to = 'info@theredpin.com'; //Почта получателя, через запятую можно указать сколько угодно адресов
 
-        $subject = 'Letter from TheRedPin'; //Загаловок сообщения
+        $subject = 'TheRedPin Agent App Page | App Feedback Form'; //Загаловок сообщения
 
         $message = '
 
