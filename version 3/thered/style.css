@@ -105,6 +105,7 @@ section.top-menu {padding: 5px;}
 .wrapper {
   margin: 0 auto;
   width: 96%;
+  max-width: 1300px;
   /*max-width: 1120px;*/
 }
 
